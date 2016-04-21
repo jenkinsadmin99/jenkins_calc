@@ -65,7 +65,7 @@ public class CalculatorTest {
 
 	@Test
 	public void testSubstraction() {
-		int result = calculator.divison(10, 3);
+		int result = calculator.subtraction(10, 3);
 
 		assertTrue(result == 7);
 	}
