@@ -63,7 +63,6 @@ public class CalculatorTest {
 		assertFalse(result);
 	}
 
-	@Ignore
 	@Test
 	public void testSubstraction() {
 		int result = 10 - 3;
