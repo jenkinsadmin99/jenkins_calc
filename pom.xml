@@ -42,11 +42,10 @@
       		<version>2.3</version>
       		<executions>
         		<execution>
-        			<id>aggregate</id>
-            		<goals>
-              			<goal>aggregate</goal>
-            		</goals>
-            		<phase>package</phase>
+        			<id>attach-javadocs</id>
+          			<goals>
+            			<goal>jar</goal>
+          			</goals>
         		</execution>
       		</executions>
     	</plugin>
