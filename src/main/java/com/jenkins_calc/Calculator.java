@@ -12,10 +12,11 @@ public class Calculator implements ICalculator {
 		return a - b;
 	}
 
-	@Override
+	@Override 
 	public int multiplication(int a, int b) {
 		return a * b;
 	}
+
 
 	@Override
 	public int divison(int a, int b) throws Exception {
