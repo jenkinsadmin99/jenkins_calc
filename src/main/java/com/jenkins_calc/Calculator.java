@@ -17,7 +17,6 @@ public class Calculator implements ICalculator {
 		return a * b;
 	}
 
-
 	@Override
 	public int divison(int a, int b) throws Exception {
 		if (b == 0) {
