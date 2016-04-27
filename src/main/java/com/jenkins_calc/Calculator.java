@@ -12,6 +12,7 @@ public class Calculator implements ICalculator {
 		return a - b;
 	}
 
+	
 	@Override 
 	public int multiplication(int a, int b) {
 		return a * b;
