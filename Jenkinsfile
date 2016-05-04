@@ -1,0 +1,18 @@
+#!groovy
+node { //allocate a node and execute everything within the brackets on the node
+   stage 'Checkout'
+   // Get code from a local repo
+   git url: '/home/jenkins_admin/jenkins_calc'
+
+   stage 'Build and test'
+   // Run maven build
+   sh "mvn clean test"
+   
+   //If everything passed then its safe to push
+   stage 'Push to global repo'
+   sh('git push https://jenkinsadm:jenkins_pass1@github.com/danhir/jenkins_calc.git')
+   
+   //Run a freestyle job that we already have created
+   stage 'Test global repo after push'
+   build 'Jenkins calc global'
+}
