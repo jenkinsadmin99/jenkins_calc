@@ -1,3 +1,4 @@
+#!groovy
 node { //allocate a node and execute everything within the brackets on the node
    stage 'Checkout'
    // Get code from a local repo
