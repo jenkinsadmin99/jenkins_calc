@@ -38,6 +38,11 @@ public class CalculatorTest {
 
 		assertEquals(7, result);
 	}
+	@Test
+	public void testSumAgain() {
+		int result = calculator.sum(1, 5);
+		assertEquals(result, 6);
+	}	
 
 	@Test
 	public void testDivison() {
