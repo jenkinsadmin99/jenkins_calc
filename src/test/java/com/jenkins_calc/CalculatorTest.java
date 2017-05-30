@@ -33,11 +33,16 @@ public class CalculatorTest {
 	}
 
 	@Test
-	public void testSum() {
+	public void testSum2() {
 		int result = calculator.sum(3, 4);
 
 		assertEquals(7, result);
 	}
+	@Test
+	public void testSumAgain() {
+		int result = calculator.sum(1, 5);
+		assertEquals(result, 6);
+	}	
 
 	@Test
 	public void testDivison() {
