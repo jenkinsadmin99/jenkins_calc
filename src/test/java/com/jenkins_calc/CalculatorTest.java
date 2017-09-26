@@ -62,12 +62,12 @@ public class CalculatorTest {
 
 	@Ignore
 	@Test
-	public void testEqual() {
+	/*	public void testEqual() {
 		boolean result = calculator.equalIntegers(20, 20);
 
 		assertFalse(result);
 	}
-
+	*/
 	@Test
 	public void testSubstraction() {
 		int result = calculator.subtraction(10, 3);
