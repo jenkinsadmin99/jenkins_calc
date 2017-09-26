@@ -59,10 +59,10 @@ public class CalculatorTest {
 	public void testDivisionException() throws Exception {
 		calculator.divison(10, 0);
 	}
-
+    /*
 	@Ignore
 	@Test
-	/*	public void testEqual() {
+		public void testEqual() {
 		boolean result = calculator.equalIntegers(20, 20);
 
 		assertFalse(result);
