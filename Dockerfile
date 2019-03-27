@@ -13,4 +13,4 @@ ENV MAVEN_HOME /usr/share/maven
 COPY . /jenkins_calc
 WORKDIR /jenkins_calc
 
-# CMD 
+# CMD
