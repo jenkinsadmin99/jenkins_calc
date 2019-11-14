@@ -65,8 +65,8 @@ public class CalculatorTest {
 		public void testEqual() {
 		boolean result = calculator.equalIntegers(20, 20);
 
-		assertFalse(result);
-		//assertTrue(result);
+		//assertFalse(result);
+		assertTrue(result);
 	}
 	
 	@Test
