@@ -78,7 +78,7 @@ public class CalculatorTest {
 
         @Test
         public void testSubtraction2() {
-	    int result = calculator.subtraction(10,4);
+	    inte result = calculator.subtraction(10,4);
 	    assertTrue(result == 6);
 	}
 }
