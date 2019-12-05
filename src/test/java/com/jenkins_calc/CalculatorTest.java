@@ -44,6 +44,18 @@ public class CalculatorTest {
 		assertEquals(result, 6);
 	}	
 
+        @Test
+        public void testDiff() {
+               boolean result = calculator.equalIntegers(3, 4);
+               assertFalse(result);
+        }
+
+        @Test
+        public void testMul() {
+                int result = calculator.multiplication(2, 5);
+                assertEquals(result, 10);
+        }
+
 	@Test
 	public void testDivison() {
 		try {
