@@ -1,7 +1,7 @@
 #!groovy
 node {
     stage('Checkout') {
-        git '/home/jenkins_admin/jenkins_calc'
+        git '/home/ubuntu/jenkins_calc'
     }
     
     stage('build') {
